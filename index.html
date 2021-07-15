@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>T-Shirt Buzz</title>
+</head>
+<body>
+    <!-- Header Section Start -->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <h2><span>T-Shirt</span> Buzz</h2>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <span class="cart-items">0</span>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Section End -->
+
+    <!-- Banner Section Start -->
+    <section class="banner">
+        <div class="banner-sec">
+            <h1 class="banner-title">
+                "All T-Shirt Collection"
+            </h1>
+            <button class="banner-btn">Shop Now</button>
+        </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Products Section Start -->
+    <div class="products">
+        <div class="section-title">
+            <h2>Our products</h2>
+        </div>
+        <div class="products-center">
+            <!-- Single Products Start -->
+            
+            <article class="single-products">
+                <div class="img-container">
+                    <img src="./Images/tshirt_01.jpg" alt="" class="product-img">
+                    <button class="bag-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to cart
+                    </button>
+                </div>
+                <h3>Black T-Shirt</h3>
+                <h4>price: $20</h4>
+            </article>
+            <article class="single-products">
+                <div class="img-container">
+                    <img src="./Images/tshirt_01.jpg" alt="" class="product-img">
+                    <button class="bag-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to cart
+                    </button>
+                </div>
+                <h3>Black T-Shirt</h3>
+                <h4>price: $20</h4>
+            </article>
+            <article class="single-products">
+                <div class="img-container">
+                    <img src="./Images/tshirt_02.jpg" alt="" class="product-img">
+                    <button class="bag-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to cart
+                    </button>
+                </div>
+                <h3>Black T-Shirt</h3>
+                <h4>price: $20</h4>
+            </article>
+            <article class="single-products">
+                <div class="img-container">
+                    <img src="./Images/tshirt_01.jpg" alt="" class="product-img">
+                    <button class="bag-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to cart
+                    </button>
+                </div>
+                <h3>Black T-Shirt</h3>
+                <h4>price: $20</h4>
+            </article>
+            <!-- Single Products End -->
+        </div>
+    </div>
+    <!-- Products Section Start -->
+
+    <!-- Cart Section Start -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+                <h2>Your Cart</h2>
+            </span>
+            <div class="cart-content">
+                <img src=${item.image} alt="">
+        <div>
+            <h4>T shirt</h4>
+            <h5>$10</h5>
+            <span class="remove-item" data-id=${item.id}> 
+                remove
+            </span>
+        </div>
+        <div>
+            <i class="fas fa-chevron-up" data-id=${item.id}></i>
+            <p class="item-amount">${item.amount}</p>
+            <i class="fas fa-chevron-down" data-id=${item.id}></i>
+        </div>
+            </div>
+            <div class="cart-footer">
+                <h3>Your total : $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Cart Section Start -->
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
