@@ -8,7 +8,10 @@ cartOverlay = document.querySelector('.cart-overlay'),
 cartItems = document.querySelector('.cart-items'),
 cartTotal = document.querySelector('.cart-total'),
 cartContent = document.querySelector('.cart-content'),
-productsDOM= document.querySelector('.products-center');
+productsDOM= document.querySelector('.products-center'),
+navBtn = document.querySelector('.fa-bars'),
+navOverlay = document.querySelector('.nav-overlay'),
+navDOM = document.querySelector('.nav-cart');
 
 //cart
 let cart = []
@@ -49,6 +52,10 @@ class UI{
         }
         }, 300);
     }
+    showNavBar(){
+        navOverlay.classList.toggle('transparentBcg');
+        navDOM.classList.toggle('menu-toggle')
+    }
     displayProducts(products){
         let result = '';
         products.forEach(product => {
@@ -62,8 +69,11 @@ class UI{
                         Add to bag
                     </button>
                 </div>
+                <div class="product-details">
                 <h3>${product.title}</h3>
                 <h4>$${product.price}</h4>
+                </div>
+                
             </article>
             <!-- single Product -->
             `
@@ -83,7 +93,6 @@ class UI{
         btn.addEventListener('click', event =>{
             event.target.innerText = "In Cart"
             event.target.disabled = true;
-            console.log(btn.innerText);
                 //get product from product
                 let cartItem = { ...Storage.getProduct(id), 
                 "amount": 1};
@@ -146,6 +155,7 @@ class UI{
         this.populateCart(cart);
         cartBtn.addEventListener('click', this.showCart)
         closeCartBtn.addEventListener('click', this.hideCart);
+        navBtn.addEventListener('click', this.showNavBar)
     }
     populateCart(cart){
         cart.forEach(item => this.addcartItem(item));

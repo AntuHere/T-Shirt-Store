@@ -3,7 +3,7 @@
       {
         "sys": { "id": "1" },
         "fields": {
-          "title": "tshirt_01",
+          "title": "StackOverflow T-Shirt",
           "price": 10.99,
           "image": "./images/tshirt_01.jpg" 
         }
@@ -11,7 +11,7 @@
       {
         "sys": { "id": "2" },
         "fields": {
-          "title": "tshirt_02",
+          "title": "React T-Shirt",
           "price": 12.99,
           "image": "./images/tshirt_02.jpg" 
         }
@@ -19,7 +19,7 @@
       {
         "sys": { "id": "3" },
         "fields": {
-          "title": "tshirt_03",
+          "title": "Coding T-Shirt",
           "price": 12.99,
           "image": "./images/tshirt_03.jpg" 
         }
@@ -27,7 +27,7 @@
       {
         "sys": { "id": "4" },
         "fields": {
-          "title": "tshirt_04",
+          "title": "React T-Shirt",
           "price": 22.99,
           "image": "./images/tshirt_04.jpg" 
         }
@@ -35,7 +35,7 @@
       {
         "sys": { "id": "5" },
         "fields": {
-          "title": "tshirt_05",
+          "title": "Python T-Shirt",
           "price": 88.99,
           "image": "./images/tshirt_05.jpg" 
         }
@@ -43,7 +43,7 @@
       {
         "sys": { "id": "6" },
         "fields": {
-          "title": "tshirt_06",
+          "title": "JS T-Shirt",
           "price": 32.99,
           "image": "./images/tshirt_06.jpg"
         }
@@ -51,7 +51,7 @@
       {
         "sys": { "id": "7" },
         "fields": {
-          "title": "tshirt_07",
+          "title": "Node JS T-Shirt",
           "price": 45.99,
           "image":  "./images/tshirt_07.jpg"
         }
@@ -59,7 +59,7 @@
       {
         "sys": { "id": "8" },
         "fields": {
-          "title": "tshirt_08",
+          "title": "Script.js T-Shirt",
           "price": 33.99,
           "image":  "./images/tshirt_08.jpg" 
         }
@@ -67,7 +67,7 @@
       {
         "sys": { "id": "9" },
         "fields": {
-          "title": "tshirt_09",
+          "title": "Solid T-Shirt",
           "price": 33.99,
           "image":  "./images/tshirt_09.jpg" 
         }
@@ -75,7 +75,7 @@
       {
         "sys": { "id": "10" },
         "fields": {
-          "title": "tshirt_10",
+          "title": "Larravel T-Shirt",
           "price": 33.99,
           "image":  "./images/tshirt_10.webp" 
         }
